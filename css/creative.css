@@ -44,6 +44,7 @@ h6 {
 
 .bg-dark {
   background-color: #212529 !important;
+  color: #FFFFFFFF !important;
 }
 
 .text-faded {
