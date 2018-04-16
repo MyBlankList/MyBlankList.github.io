@@ -94,7 +94,7 @@
 /* no arrows on touch screens */
 .pswp--touch .pswp__button--arrow--left,
 .pswp--touch .pswp__button--arrow--right {
-  visibility: visible; }
+  visibility: hidden; }
 
 /*
 	Arrow buttons hit area
@@ -408,7 +408,7 @@ a.pswp__share--download:hover {
             transform: rotate(0); } }
 
 /*
-
+	
 	6. Additional styles
 
  */
@@ -431,7 +431,7 @@ a.pswp__share--download:hover {
 .pswp__top-bar,
 .pswp--has_mouse .pswp__button--arrow--left,
 .pswp--has_mouse .pswp__button--arrow--right {
-  -webkit-backface-visibility: visible;
+  -webkit-backface-visibility: hidden;
   will-change: opacity;
   -webkit-transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);
           transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1); }
