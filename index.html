@@ -154,7 +154,7 @@
     </section>
 
     <!-- Root element of PhotoSwipe. Must have class pswp. -->
-    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp pswp--supports-fs pswp--open pswp--notouch pswp--css_animation pswp--svg pswp--zoom-allowed pswp--visible pswp--animated-in pswp--has_mouse" tabindex="-1" role="dialog" aria-hidden="false" style="position: fixed; opacity: 1;"><div class="pswp__bg" style="opacity: 0.9;"></div><div class="pswp__scroll-wrap"><div class="pswp__container" style="transform: translate3d(0px, 0px, 0px);"><div class="pswp__item" style="display: block; transform: translate3d(-149px, 0px, 0px);">
 
         <!-- Background of PhotoSwipe.
              It's a separate element as animating opacity is faster than rgba(). -->
@@ -166,14 +166,14 @@
             <!-- Container that holds slides.
                 PhotoSwipe keeps only 3 of them in the DOM to save memory.
                 Don't modify these 3 pswp__item elements, data is added later on. -->
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
+            <div class="pswp__container" style="transform: translate3d(0px, 0px, 0px);">
+                <div class="pswp__item" style="display: block; transform: translate3d(-149px, 0px, 0px);"><div class="pswp__zoom-wrap" style="transform: translate3d(0px, 452px, 0px) scale(1);"><img class="pswp__img" src="img/screenshots/28_Similarity_Calculation04.png" style="opacity: 1; width: 133px; height: 100px;"></div></div>
+                <div class="pswp__item" style="transform: translate3d(0px, 0px, 0px);"><div class="pswp__zoom-wrap" style="transform: translate3d(0px, 527px, 0px) scale(1);"><div class="pswp__img pswp__img--placeholder pswp__img--placeholder--blank" style="width: 133px; height: 131px; display: none;"></div><img class="pswp__img" src="img/screenshots/00_Skins.png" style="display: block; width: 133px; height: 131px;"></div></div>
+                <div class="pswp__item" style="display: block; transform: translate3d(149px, 0px, 0px);"><div class="pswp__zoom-wrap" style="transform: translate3d(0px, 442px, 0px) scale(1);"><img class="pswp__img" src="img/screenshots/01_Main-Summary.png" style="opacity: 1; width: 133px; height: 100px;"></div></div>
             </div>
 
             <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-            <div class="pswp__ui pswp__ui--fit pswp__ui--over-close pswp__ui--idle">
+            <div class="pswp__ui pswp__ui--fit pswp__ui--idle">
 
                 <div class="pswp__top-bar">
 
@@ -209,6 +209,8 @@
 
                 <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
                 </button>
+
+                <div class="pswp__caption pswp__caption--fake"><div class="pswp__caption__center"><b>Main Screen</b> with<li>Global filters (top left)</li><li>Game list (bottom left)</li><li>Name of the current game and Extras (Screenshots etc.) image viewer (top right)</li><li>Description text area (bottom right)</li></div></div>
 
                 <div class="pswp__caption">
                     <div class="pswp__caption__center"></div>
@@ -285,7 +287,7 @@
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
     <script src="js/gallery.min.js"></script>
-    
+
   </body>
 
 </html>
