@@ -1,3 +1,16 @@
+Version 2.5
+- Added Splash screen telling people to enable macros if not already enabled
+- Re-aligned Options Icons
+- New Option Category 'Other'
+- Added Zoom Percentage Options (under 'Other') and Disabled the DisplayStatusBar to fix an issue where disparities between zoom percentage on the Game and Simple page would cause scraped images to be the wrong size on the simple page 
+- Set Games page as default startup page
+- Added Page Disable options under 'Other'
+- Fixed a few graph inconsistency errors
+- Fixed a few bugs regarding people implementation
+- Removed duplicate people roles
+- Fixed parentheses inconsistency with new prices
+- Added new system names to system master list
+
 Version 2.4:
 - Overhualed game exeptions and added a new game exception
 - Updated Price Scriper
